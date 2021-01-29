@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+  tools:ignore="MissingDefaultResource">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,18 +48,19 @@
         </RadioGroup>
 
         <EditText
-            android:id="@+id/editText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/radioGroup"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="80dp"
-            android:layout_marginEnd="103dp"
-            android:layout_marginBottom="366dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+          android:id="@+id/editText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/radioGroup"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginTop="79dp"
+          android:layout_marginEnd="83dp"
+          android:layout_marginBottom="367dp"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:text="Name"
+          tools:visibility="visible" />
 
         <Button
             android:id="@+id/button"
@@ -83,44 +86,45 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight=".33">
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight=".33">
 
         <CheckBox
-            android:id="@+id/checkBoxTransparency"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Transparency" />
+          android:id="@+id/checkBoxTransparency"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Transparency" />
 
         <CheckBox
-            android:id="@+id/checkBoxTint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="62dp"
-            android:text="Tint" />
+          android:id="@+id/checkBoxTint"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="1dp"
+          android:layout_marginTop="62dp"
+          android:text="Tint" />
 
         <CheckBox
-            android:id="@+id/checkBoxResize"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="123dp"
-            android:text="Resize" />
+          android:id="@+id/checkBoxResize"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="0dp"
+          android:layout_marginTop="123dp"
+          android:text="Resize" />
 
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="152dp"
-            android:layout_marginTop="268dp" />
+          android:id="@+id/imageView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="135dp"
+          android:layout_marginTop="306dp"
+          app:srcCompat="@drawable/ic_launcher_foreground" />
 
     </RelativeLayout>
 
@@ -141,14 +145,14 @@
             android:text="Switch" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="186dp"
-            android:layout_marginEnd="215dp"
-            android:text="TextView"
-            android:textSize="34sp" />
+          android:id="@+id/textView"
+          android:layout_width="367dp"
+          android:layout_height="72dp"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentEnd="true"
+          android:layout_marginTop="308dp"
+          android:layout_marginEnd="36dp"
+          android:text="TextView"
+          android:textSize="34sp" />
     </RelativeLayout>
 </LinearLayout>
