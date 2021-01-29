@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 //    setContentView(R.layout.exploration_layout)
     setContentView( root )
 
-    binding.checkBoxTransparency.setOnCheckedChangeListener { view, isChecked ->
+    binding.checkBoxTransparency.setOnCheckedChangeListener { _, isChecked ->
       if (isChecked) {
         // Set some transparency
         binding.imageView.alpha = .1f
