@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="125dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonLondon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="London" />
+
+            <RadioButton
+                android:id="@+id/radioButtonBeijing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beijing" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNewYork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New York" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEuropeanEmpire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="European Empire" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginBottom="366dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="155dp"
+            android:layout_marginBottom="236dp"
+            android:text="Capture" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="218dp"
+            android:layout_marginBottom="104dp"
+            android:textSize="54sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33">
+
+        <CheckBox
+            android:id="@+id/checkBoxTransparency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transparency" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="62dp"
+            android:text="Tint" />
+
+        <CheckBox
+            android:id="@+id/checkBoxResize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="123dp"
+            android:text="Resize" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="268dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="104dp"
+            android:enabled="true"
+            android:text="Switch" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="215dp"
+            android:text="TextView"
+            android:textSize="34sp" />
+    </RelativeLayout>
+</LinearLayout>
